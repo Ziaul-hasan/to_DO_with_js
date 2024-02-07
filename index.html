@@ -24,31 +24,33 @@
             <div class="task-container">
                 <div class="part-container">
                     <h1>Incomplete Task</h1>
-                    <ul>
+                    <ul id="container">
                         <li class="item">
                             <div>
-                                <input type="checkbox" name="" id="" class="cb">
+                                <input onchange="checkboxBtnTask()" type="checkbox" name="" id="" class="cb">
                                 <label for="">First task</label>
                             </div>
-                            <button id="btn-done" disabled>Done</button>
+                            <button onclick="getTextContent(this)" class="btn-done" disabled>Done</button>
                         </li>
                         <li class="item">
                             <div>
-                                <input type="checkbox" name="" id="" class="cb">
+                                <input onchange="checkboxBtnTask()" type="checkbox" name="" id="" class="cb">
                                 <label for="">First task</label>
                             </div>
-                            <button id="btn-done" disabled>Done</button>
+                            <button onclick="getTextContent(this)" class="btn-done" disabled>Done</button>
                         </li>
                     </ul>
                 </div>
                 <div class="part-container">
                     <h1>Complete Task</h1>
-                    <ul>
+                    <ul id="complete-container">
                         
                     </ul>
                 </div>
             </div>
         </section>
     </main>
+
+    <script src="to-do.js"></script>
 </body>
 </html>
