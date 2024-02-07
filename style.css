@@ -1,0 +1,14 @@
+main{
+    width: 1000px;
+    margin: 60px auto;
+    padding: 30px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+#head{
+    text-align: center;
+    margin: 20px;
+    
+}
