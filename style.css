@@ -10,5 +10,77 @@ main{
 #head{
     text-align: center;
     margin: 20px;
-    
+
+}
+#head img{
+    border-radius: 10px;
+}
+.heading{
+    font-size: 36px;
+}
+.input-container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-container label{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0  10px;
+}
+#input-text{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+#btn-add{
+    background-color: rgb(75, 230, 75);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.task-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+.task-container h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.part-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-bottom: 1px solid gray;
+}
+ul{
+    padding: 0;
+}
+.cb{
+    width: 20px;
+    height: 20px;
+}
+li label{
+    font-size: 24px;
+    margin: 10px;
+}
+#btn-done{
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }

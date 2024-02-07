@@ -14,28 +14,34 @@
             <h2 class="heading">Ziaul Hasan Shaon</h2>
         </section>
         <section>
-            <label for="">Add New Task</label>
-            <input type="text" name="" id="input-text" placeholder="Add a new task">
-            <button>Add Task</button>
+            <div class="input-container">
+                <label for="">Add New Task</label>
+                <input type="text" name="" id="input-text" placeholder="Add a new task">
+                <button id="btn-add">Add Task</button>
+            </div>
         </section>
         <section>
-            <div>
-                <div>
+            <div class="task-container">
+                <div class="part-container">
                     <h1>Incomplete Task</h1>
                     <ul>
-                        <li>
-                            <input type="checkbox" name="" id="" class="cb">
-                            <label for="">First task</label>
+                        <li class="item">
+                            <div>
+                                <input type="checkbox" name="" id="" class="cb">
+                                <label for="">First task</label>
+                            </div>
                             <button id="btn-done" disabled>Done</button>
                         </li>
-                        <li>
-                            <input type="checkbox" name="" id="" class="cb">
-                            <label for="">First task</label>
+                        <li class="item">
+                            <div>
+                                <input type="checkbox" name="" id="" class="cb">
+                                <label for="">First task</label>
+                            </div>
                             <button id="btn-done" disabled>Done</button>
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="part-container">
                     <h1>Complete Task</h1>
                     <ul>
                         
